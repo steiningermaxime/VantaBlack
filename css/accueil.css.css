@@ -1,0 +1,142 @@
+@font-face {
+    font-family:Abygaer;
+    src: url(Abygaer\ Regular.otf);
+   
+ }
+ @font-face {
+    font-family: Calson;
+    src: url(CALSANS-SEMIBOLD.TTF);
+ }
+ body{
+	
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    height: 100vh;
+    margin: 0; 
+    background:#D65847;
+    
+}
+
+
+.logo{
+    float: left;
+    padding-left: 40px;
+    padding-top: 20px;
+       color:#F7F4EF;
+    }
+
+
+.header{
+    position: relative;
+    
+}
+nav ul{
+    background:linear-gradient(90deg, #000000,#D65847,#FFAD95 ) ;
+    font-size: 30px;
+    
+    padding: 10;
+    text-align:right;
+    margin: 0;
+    padding-right: 200px;
+    height: 8vh;
+    padding-top: 20px;
+ }
+ nav ul li{
+    
+  
+    display: inline-block;
+    padding: 20px;
+ 
+ }
+ nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 20 px;
+    font-family: Calson;
+ }
+ .menu a:hover{
+    color: black;
+    transition-duration: 300ms;
+    
+ }
+ .content img{
+    width: 100%;
+ }
+ .container{
+    width: 100%;
+ }
+ .content{
+    width: 100%;
+    position: relative;
+    
+ }
+ h1{
+    position:absolute;
+    font-family: Abygaer;
+    top:60px;
+    margin: 2%;
+    margin-left: 550px;
+    color: white;
+    font-size: 30px;  
+ }
+ h2{
+    font-family: Abygaer;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+ }
+ 
+ button{ 
+    position:absolute;
+    top:50px;
+    margin:7%;
+    margin-left: 680px;
+    color: white ;
+    font-size: 30px;
+    background-color: #D65847;
+    cursor: pointer;
+    font-family: Calson;
+ }
+ hr{
+    position:relative;
+    border:none;
+    height: 1px;
+    background: white;
+    margin: 40px  80px;
+    top:-650PX;
+    
+ }
+
+.presentation{
+   padding-left:58px;
+   position: absolute;
+   top:350px;
+   color: whitesmoke;
+   font-size: 18px;
+   text-align: center; 
+   font-family: Calson;  
+}  
+#pied{
+    height: 0px; 
+     color: white;
+     padding: 5px ;
+     display: flex;
+     flex-direction: column;    
+ }
+ .lieu{position:absolute;
+    margin-left: 637px;
+     bottom: -57px;
+     font-size: 15px;
+     Font-size:Calson;
+ }
+ a{
+   text-decoration: none;
+}
+.hypertext{
+   color: #FFAD95;
+   font-style: italic;
+}
+
+
+
